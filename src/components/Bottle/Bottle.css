@@ -1,0 +1,19 @@
+.bottle {
+  border: 2px solid salmon;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px;
+
+
+}
+
+.bottles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.bottles img {
+  width: 200px;
+
+}
